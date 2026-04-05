@@ -1,0 +1,8 @@
+@block spam_user -> ana_g
+@connect test_user -> new_user
+@post test_user "new_account" #start
+@tag post_009 #cool #life #photo
+@like test_user : post_009
+@message test_user -> new_user "hello_friend"
+@status test_user = ACTIF
+@delete temp_post ;

@@ -1,0 +1,10 @@
+@connect ana_g -> ioana_t
+@post ana_g "hello_world" #greet
+@follow ioana_t -> ana_g
+@like ana_g : post_001
+@status ioana_t = ACTIF
+@block user_x -> user_y
+@unfollow ana_g -> user_z
+@tag post_002 #fun #life
+@message ana_g -> ioana_t "welcome_1"
+@delete post_003 ;

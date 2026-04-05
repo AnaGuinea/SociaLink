@@ -1,0 +1,6 @@
+@connect maria_1 -> user_test
+@post maria_1 "summer2026" #vacation #sun
+@like maria_1 : post_777
+@status maria_1 = EN_ATTENTE
+@message maria_1 -> alex_22 "secret_msg"
+@delete old_post ;

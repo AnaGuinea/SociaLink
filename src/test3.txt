@@ -1,0 +1,8 @@
+@follow user_a -> user_b
+@follow user_b -> user_c
+@follow user_c -> user_d
+@tag photo_001 #friends #party #night
+@post user_a "best_day" #happy
+@message user_b -> user_c "meeting_soon"
+@status user_d = FERME
+@delete photo_001 ;

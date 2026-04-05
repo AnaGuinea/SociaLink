@@ -1,0 +1,10 @@
+@connect alpha_1 -> beta_2
+@follow beta_2 -> alpha_1
+@post alpha_1 "mission_start" #alpha #secret
+@post beta_2 "reply_message" #response
+@like beta_2 : mission_001
+@message alpha_1 -> beta_2 "continue_plan"
+@status beta_2 = ACTIF
+@unfollow beta_2 -> alpha_1
+@block alpha_1 -> gamma_3
+@delete mission_001 ;
